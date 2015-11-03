@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
 
     @Override
     public boolean onTouch(View view, MotionEvent me) {
+        //on touch events
         if (me.getAction() == MotionEvent.ACTION_DOWN) {
             status = 0;
         }
